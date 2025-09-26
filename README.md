@@ -1,16 +1,37 @@
-# myproject
+# Flutter Personal Data App
 
-A new Flutter project.
+A simple Flutter mobile application to manage personal data. 
+Users can add, view, and manage personal information including name, age, and job.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📌 Features
+- Add new person with **name**, **age**, and **job**.
+- Input validation to ensure fields are correctly filled.
+- Dropdown selection for **job types** (Doctor, Teacher, Nurse, Police).
+- Dynamic display of added persons in a list.
+- Reset and save functionality for quick data entry.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Tech Stack
+- **Flutter**
+- **Dart**
+- **Material Design Components**
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🧑‍💻 How to Run / วิธีใช้งานบนเครื่อง
+
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/your-username/Flutter-Personal-Data-App.git
+   cd Flutter-Personal-Data-App
+
+2. Install dependencies
+    ```bash
+    flutter pub get
+
+3. Start the development server
+    ```bash
+    flutter run
