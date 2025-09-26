@@ -1,0 +1,142 @@
+//code 1
+  // int quantity = 10;
+
+  // void addQuantity() {
+  //   setState(() {
+  //     quantity++;
+  //   });
+  // }
+
+  // void subQuantity() {
+  //   setState(() {
+  //     quantity--;
+  //     if (quantity < 0) {
+  //       quantity = 0;
+  //     }
+  //   });
+  // }
+
+// return Center(
+//       child: Column(
+//         mainAxisAlignment: MainAxisAlignment.center,
+//         children: [
+//           Text(
+//             "$quantity",
+//             style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+//           ),
+//           const SizedBox(height: 20),
+//           OutlinedButton(
+//             onPressed: () {
+//               addQuantity();
+//             },
+//             child: Text(
+//               "+",
+//               style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+//             ),
+//           ),
+//           const SizedBox(height: 20),
+//           OutlinedButton(
+//             onPressed: () {
+//               subQuantity();
+//             },
+//             child: Text(
+//               "-",
+//               style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+//             ),
+//           ),
+//         ],
+//       ),
+//     );
+//code 1
+// return Center(
+//       child: Container(
+//         color: Colors.orange,
+//         // margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 50),
+//         // padding: const EdgeInsets.fromLTRB(10, 20, 10, 20),
+//         child: const Text(
+//           "Phoosith",
+//           style: TextStyle(fontSize: 30, letterSpacing: 3),
+//         ),
+//       ),
+//     );
+
+//code 2
+// return Column(
+//       mainAxisAlignment: MainAxisAlignment.spaceBetween, //คำสั่งในแนวตั้ง,
+//       crossAxisAlignment: CrossAxisAlignment.stretch, //คำสั่งในแนวนอน
+//       children: [
+//         Container(
+//           color: Colors.orange,
+//           padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
+//           child: const Text(
+//             "Phoo",
+//             style: TextStyle(fontSize: 30, letterSpacing: 4),
+//           ),
+//         ),
+
+//         Container(
+//           color: Colors.orange,
+//           padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
+//           child: const Text(
+//             "Phoo",
+//             style: TextStyle(fontSize: 30, letterSpacing: 4),
+//           ),
+//         ),
+
+//         Container(
+//           color: Colors.orange,
+//           padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
+//           child: const Text(
+//             "Phoo",
+//             style: TextStyle(fontSize: 30, letterSpacing: 4),
+//           ),
+//         ),
+//       ],
+//     );
+
+
+//code 3
+    // return Row(
+    //   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+    //   children: [
+    //     Container(
+    //       color: Colors.orange,
+    //       padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
+    //       child: const Text(
+    //         "Phoo",
+    //         style: TextStyle(fontSize: 30, letterSpacing: 4),
+    //       ),
+    //     ),
+
+    //     Container(
+    //       color: Colors.orange,
+    //       padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
+    //       child: const Text(
+    //         "Phoo",
+    //         style: TextStyle(fontSize: 30, letterSpacing: 4),
+    //       ),
+    //     ),
+
+    //     Container(
+    //       color: Colors.orange,
+    //       padding: const EdgeInsets.symmetric(horizontal: 5, vertical: 5),
+    //       child: const Text(
+    //         "Phoo",
+    //         style: TextStyle(fontSize: 30, letterSpacing: 4),
+    //       ),
+    //     ),
+    //   ],
+    // );
+
+//code 4
+//       mainAxisAlignment: MainAxisAlignment.center,
+//       crossAxisAlignment: CrossAxisAlignment.stretch,
+//       children: [
+//         Image.network(
+//           "https://cdn-icons-png.flaticon.com/512/1375/1375106.png",
+//           width: 150,
+//           height: 150,
+//         ),
+//  const SizedBox(height: 30), //สร้างช่องว่างระหว่างภาพ
+//         Image.asset("assets/images/photo1.png", width: 150, height: 150),
+//       ],
